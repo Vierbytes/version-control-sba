@@ -1,0 +1,9 @@
+# Project Reflection
+
+I set up a separate repository for this assessment and built a simple homepage with a header, navigation, hero section, about section, testimonials, contact form, and footer. To practice working in branches, I created separate `feature/header` and `feature/footer` branches. I changed the footer line on both branches so that the edits overlapped, and added a short tagline on the header branch. Keeping each change isolated made it easier to see which part of the page it belonged to.
+
+I merged the footer branch into `main` first, then tried to merge the header branch. Git marked the copyright line as a conflict because both branches had changed it. I checked `git status`, opened `index.html`, and removed the conflict markers by hand. I kept the new tagline and one final copyright line, then staged and committed the resolved file. Afterward I checked the page and status to make sure the useful changes stayed and the conflict was cleared. That showed me why conflicts need a careful read instead of choosing one entire side automatically.
+
+A pull request gives another person a clear place to review the changes before they are merged. The title and description explain what the branch does, while comments can point out a broken link, a missing label, or a section that needs cleanup. Addressing those comments in a follow-up commit leaves a useful record of what changed. For this assignment I prepared a self-review checklist. GitHub does not let a pull request author approve their own request, so the checklist is not a formal approval or peer review.
+
+This project helped me connect branches, commits, merges, conflict resolution, and review into one workflow. I also saw how clear commit messages and small changes make the history easier to follow. The page is simple, but it gave me a practical way to practice the same steps I would use on a larger team project.
