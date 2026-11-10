@@ -11,7 +11,7 @@ GitHub repository: https://github.com/Vierbytes/version-control-sba (private)
 - `REVIEW_QUESTIONS.md` is a short study guide for the module topics.
 - `SELF_REVIEW.md` records a review of the finished project.
 
-Each assignment lives in this repository only. The repository is private while the work is being prepared.
+This assignment lives in this repository only. The repository is private, so the instructor will need access to review it.
 
 ## Pull request review
 
